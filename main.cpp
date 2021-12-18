@@ -29,7 +29,7 @@ int main(int ac, char *av[]) {
 
 	fp = fopen(av[1], "rb");
 	if (fp == NULL) {
-		cout << "入力ファイルがありません" << endl;
+		cout << "蜈･蜉帙ヵ繧｡繧､繝ｫ縺後≠繧翫∪縺帙ｓ" << endl;
 		exit(8);
 	}
 	fgets(tmp, 256, fp);
@@ -53,9 +53,9 @@ int main(int ac, char *av[]) {
 		}
 	}
 
-	cout << "取得したい輝度値の座標を入力してください" << endl;
+	cout << "蜿門ｾ励＠縺溘＞霈晏ｺｦ蛟､縺ｮ蠎ｧ讓吶ｒ蜈･蜉帙＠縺ｦ縺上□縺輔＞" << endl;
 	cin >> x >> y;
-	cout << "(x,y) = (" << x << ", " << y << ") 座標の輝度値は" << (int)value[y][x] << endl;
+	cout << "(x,y) = (" << x << ", " << y << ") 蠎ｧ讓吶�ｮ霈晏ｺｦ蛟､縺ｯ" << (int)value[y][x] << endl;
 
 	fclose(fp);
 
